@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "title": "Zenith Pro Elite - Pitcher Model",
+    "summary": "The pinnacle of Japanese craftsmanship. Hand-crafted in Nara with premium Wagyu leather for ultimate durability and shape retention.",
+    "attributes": ["MIJ", "Wagyu Leather", "Stiff", "Deep Pocket"],
+    "positions": ["Pitcher"],
+    "details": "This model features a closed web design for hiding pitches and a deep pocket optimized for ball security. The leather is sourced from premium Wagyu cattle, known for its incredible strength-to-weight ratio.",
+    "image": "https://via.placeholder.com/400x300?text=Zenith+Pro+Elite",
+    "buyLink": "#",
+    "tags": ["Premium", "Stiff"]
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "title": "Kaze Speed Master - SS/2B",
+    "summary": "Ultra-lightweight and shallow pocket for lightning-fast transitions. Designed for the middle infielder who demands speed.",
+    "attributes": ["MIJ", "Kip Leather", "Lightweight", "Shallow Pocket"],
+    "positions": ["SS", "2B"],
+    "details": "The Kaze Speed Master uses a specialized tanning process to reduce weight without sacrificing structural integrity. Ideal for double plays and quick transfers.",
+    "image": "https://via.placeholder.com/400x300?text=Kaze+Speed+Master",
+    "buyLink": "#",
+    "tags": ["MIJ only", "Game-ready"]
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "title": "Tetsu Iron Wall - Catcher's Mitt",
+    "summary": "Built like a tank. Exceptional padding and a reinforced thumb to handle the hardest heat in the game.",
+    "attributes": ["MIJ", "Steerhide", "Heavy Duty", "Reinforced"],
+    "positions": ["Catcher"],
+    "details": "Designed with input from pro catchers, the Tetsu Mitt provides superior shock absorption. The thumb reinforcement prevents 'stinger' injuries while maintaining flexibility.",
+    "image": "https://via.placeholder.com/400x300?text=Tetsu+Iron+Wall",
+    "buyLink": "#",
+    "tags": ["Premium", "Stiff"]
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "title": "Sakura Bloom Series - Outfield",
+    "summary": "Extended length and a secure H-web for tracking down deep fly balls. Features a beautiful aesthetic with performance to match.",
+    "attributes": ["MIJ", "Kip Leather", "Extended", "H-Web"],
+    "positions": ["OF"],
+    "details": "The Sakura series combines elegance with power. The 12.75-inch length provides the reach needed for highlight-reel catches in the gap.",
+    "image": "https://via.placeholder.com/400x300?text=Sakura+Bloom",
+    "buyLink": "#",
+    "tags": ["Game-ready"]
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "title": "Ryu Dragon Claw - 1B Mitt",
+    "summary": "Superior scooping ability and a massive surface area. The ultimate weapon for any first baseman.",
+    "attributes": ["MIJ", "Wagyu Leather", "Large", "Flexible"],
+    "positions": ["1B"],
+    "details": "The Ryu model features a unique hinge design that allows for easy closing right out of the box, while the Wagyu leather ensures it won't flop over time.",
+    "image": "https://via.placeholder.com/400x300?text=Ryu+Dragon+Claw",
+    "buyLink": "#",
+    "tags": ["MIJ only", "Premium"]
+  }
+]

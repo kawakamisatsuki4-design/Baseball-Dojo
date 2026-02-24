@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MIJ Baseball Hub - Curated and verified made-in-Japan baseball gear rankings and directory.">
+    <meta name="theme-color" content="#d0021b">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mij-baseball-hub.com">
+    <meta property="og:title" content="MIJ Baseball Hub - Made-in-Japan Baseball Gear">
+    <meta property="og:description" content="Curated and verified made-in-Japan baseball gear rankings and directory.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=MIJ+Baseball+Hub">
+    
+    <title>MIJ Baseball Hub - Made-in-Japan Baseball Gear Rankings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- STICKY HEADER / NAVIGATION -->
+    <header id="header" class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>⚾ MIJ Baseball Hub</h1>
+            </div>
+            
+            <nav class="nav-main">
+                <ul class="nav-positions">
+                    <li><a href="#section-pitcher" data-position="Pitcher">Pitcher</a></li>
+                    <li><a href="#section-catcher" data-position="Catcher">Catcher</a></li>
+                    <li><a href="#section-1b" data-position="1B">1B</a></li>
+                    <li><a href="#section-2b" data-position="2B">2B</a></li>
+                    <li><a href="#section-3b" data-position="3B">3B</a></li>
+                    <li><a href="#section-ss" data-position="SS">SS</a></li>
+                    <li><a href="#section-of" data-position="OF">OF</a></li>
+                    <li><a href="#section-utility" data-position="Utility">Utility</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+                    <span class="lang-label">EN</span> / <span class="lang-label-jp" style="display:none;">JP</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-headline">Made-in-Japan Baseball Gear</h2>
+            <div class="stitch-line"></div>
+            <p class="hero-subheadline">Curated & Verified • Ranked by Performance • Trusted by Players</p>
+            
+            <div class="hero-cta">
+                <button id="cta-explore" class="btn btn-primary">Explore Rankings</button>
+                <a href="#" class="btn btn-secondary">Request a Recommendation (DM)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN RANKINGS SECTION -->
+    <main id="rankings-section" class="rankings-section">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="position-filter">Position:</label>
+                    <select id="position-filter" class="filter-select">
+                        <option value="">All Positions</option>
+                        <option value="Pitcher">Pitcher</option>
+                        <option value="Catcher">Catcher</option>
+                        <option value="1B">1B</option>
+                        <option value="2B">2B</option>
+                        <option value="3B">3B</option>
+                        <option value="SS">SS</option>
+                        <option value="OF">OF</option>
+                        <option value="Utility">Utility</option>
+                    </select>
+                </div>
+                
+                <div class="filter-pills">
+                    <button class="filter-pill" data-filter="MIJ only">MIJ Only</button>
+                    <button class="filter-pill" data-filter="Game-ready">Game-Ready</button>
+                    <button class="filter-pill" data-filter="Stiff">Stiff</button>
+                    <button class="filter-pill" data-filter="Premium">Premium</button>
+                </div>
+                
+                <div class="filter-count">
+                    <span id="item-count">Showing 5 items</span>
+                </div>
+            </div>
+
+            <!-- Rankings List -->
+            <div id="rankings-list" class="rankings-list">
+                <!-- Items will be populated by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- HOW TO CHOOSE GUIDE SECTION -->
+    <section id="how-to-choose" class="how-to-choose">
+        <div class="container">
+            <h2>How to Choose Your Perfect Glove</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Pocket Depth</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Pocket depth affects how quickly you can secure a catch. Deeper pockets (like our pitcher models) provide superior ball security but require more break-in time. Shallow pockets (infielder models) allow faster transfers but demand more precision in positioning.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Stiffness</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>A stiffer glove resists flop and maintains its shape longer, but requires significant break-in. Softer gloves are game-ready faster but may lose shape over time. Your playing style and position determine the ideal stiffness level.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Break-In Time</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Premium Japanese leather typically requires 20–50 hours of game play to reach optimal performance. Use a glove mallet, play catch regularly, and apply leather conditioner to accelerate the process safely.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Size & Fit</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Pitcher gloves typically range 11.5–12.5 inches. Infielders use 11–11.75 inches. Outfielders prefer 12–13 inches. Always try on multiple sizes to find the perfect fit for your hand size and playing style.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About MIJ Baseball Hub</h3>
+                    <p>We curate and verify the finest made-in-Japan baseball equipment for players who demand excellence.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links">
+                        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" aria-label="YouTube">YouTube</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Disclaimer</h3>
+                    <p><small>This site may contain affiliate links. We earn a small commission when you purchase through our links, at no extra cost to you.</small></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MIJ Baseball Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL FOR PRODUCT DETAILS -->
+    <div id="details-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modal-body">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- DEPLOYMENT NOTES (Comment block for reference) -->
+    <!--
+    HOW TO RUN LOCALLY:
+    1. Open this file (index.html) directly in your web browser, or
+    2. Use a local HTTP server: python3 -m http.server 8000
+    3. Then navigate to http://localhost:8000
+
+    HOW TO DEPLOY:
+    
+    GitHub Pages:
+    1. Push this project to a GitHub repository
+    2. Go to Settings > Pages
+    3. Select "Deploy from a branch" and choose main/master
+    4. Your site will be live at https://{username}.github.io/{repo-name}
+    
+    Vercel:
+    1. Connect your GitHub repo to Vercel (vercel.com)
+    2. Vercel auto-deploys on every push
+    3. Your site will be live at https://{project-name}.vercel.app
+    
+    Cloudflare Pages:
+    1. Connect your GitHub repo to Cloudflare Pages (pages.cloudflare.com)
+    2. Select the branch to deploy
+    3. Your site will be live at https://{project-name}.pages.dev
+    
+    EDITING GUIDE:
+    - To add/edit products: modify data.json
+    - To change styling: edit styles.css
+    - To add interactivity: edit app.js
+    - To replace placeholder images: update the "image" field in data.json with your image URLs
+    - To add affiliate links: update the "buyLink" field in data.json
+    -->
+
+    <script src="app.js"></script>
+</body>
+</html>
