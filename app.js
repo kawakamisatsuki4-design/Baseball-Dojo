@@ -135,6 +135,11 @@ function createProductCard(product, index) {
         openProductModal(product);
     });
 
+    // Add event listener to image for modal opening
+    card.querySelector('.card-image').addEventListener('click', () => {
+        openProductModal(product);
+    });
+
     return card;
 }
 

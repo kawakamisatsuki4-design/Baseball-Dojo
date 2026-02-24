@@ -418,6 +418,7 @@ a:hover {
     height: 200px;
     background-color: var(--gray-light);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .card-image img {

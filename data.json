@@ -58,5 +58,17 @@
     "image": "https://via.placeholder.com/400x300?text=Ryu+Dragon+Claw",
     "buyLink": "#",
     "tags": ["MIJ only", "Premium"]
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "title": "Rawlings Japanese Pro Preferred GH5FPRRT80 Baseball Glove for Outfielders, Wine, 13 inch Right Throw",
+    "summary": "Premium Japanese-inspired outfield glove with wine-colored leather and tan accents. Perfect for serious outfielders seeking professional-grade performance.",
+    "attributes": ["Premium Leather", "13 Inch", "Right Throw", "Wine Color"],
+    "positions": ["OF"],
+    "details": "TEXT",
+    "image": "images/rawlings-of.png",
+    "buyLink": "https://amzn.to/4tSold7",
+    "tags": ["Game-ready", "Premium"]
   }
 ]
